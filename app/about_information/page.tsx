@@ -1,11 +1,7 @@
-import Link from "next/link";
 import React from "react";
 
 function InformationPage(): React.JSX.Element {
-  function handleButtonClick() {
-    // This is where you handle the button click, like navigation
-    alert("Button clicked!");
-  }
+
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-6 bg-gray-50  dark:bg-gray-900">

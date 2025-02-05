@@ -8,14 +8,14 @@ export default function Login() {
         <div className="mb-5">
           <label
             htmlFor="email"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+            className="block mb-2 text-sm font-medium dark:text-white"
           >
             Votre email
           </label>
           <input
             type="email"
             id="email"
-            className=" text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="jeanos@gmail.com"
             required={true}
           />
@@ -23,14 +23,14 @@ export default function Login() {
         <div className="mb-5">
           <label
             htmlFor="password"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black focus:outline-none"
+            className="block mb-2 text-sm font-medium dark:text-white focus:outline-none"
           >
             Votre mot de passe
           </label>
           <input
             type="password"
             id="password"
-            className=" text-gray-900 text-sm rounded-lg focus:outline-none focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className=" text-sm rounded-lg focus:outline-none focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="********"
             required={true}
           />
@@ -47,15 +47,15 @@ export default function Login() {
           </div>
           <label
             htmlFor="remember"
-            className="ms-2 text-sm font-medium text-gray-900 dark:text-black"
+            className="ms-2 text-sm font-medium dark:text-white"
           >
             Se souvenir de moi
           </label>
         </div>
         <p>
           <Link
-            href=""
-            className="ms-2 text-sm font-medium text-gray-900 dark:text-black"
+            href="/forgot_password"
+            className="ms-2 text-sm font-medium dark:text-white hover:underline"
           >
             Mot de passe oublié?
           </Link>
