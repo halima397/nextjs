@@ -6,6 +6,7 @@ export default function Page() {
     <div className="bg-slate-600 min-h-screen">
       <main className="flex flex-col items-center justify-center text-center py-16 px-8">
         {/* Titre principal */}
+        
         <h1 className="text-4xl font-bold text-gray-800 dark:text-white">
           Bienvenue sur mon application Next.js !
         </h1>
